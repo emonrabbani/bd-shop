@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BD-SHOP</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <style>
+    @media (max-width: 1125px) {
+    
+   
+    .menu ul{
+        position:fixed;
+        top: 0;
+        left: 0;
+        background: rgba(75, 74, 74, 0.616);
+        height: 50vh;
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    .menu ul li {
+      margin-top: 40px 0;
+      
+    }
+    .menu ul li a{
+      font-size: 20px;
+      display: block;
+    }
+    .menu ul li a:hover{
+      background-color: cyan;
+      margin: 0 50px 0 50px;
+      
+
+    }
+   
+    
+}
+  </style>
+</head>
+<body>
+  <!--Navbar Start-->
+  <header class="bg-primary">
+    <div class="row menu">
+      <div class="col-lg-5 m-auto">
+        <h1 class="logo text-white text-center mb-0 py-2">BD-SHOP</h1>
+
+      </div>
+      <div class="col-lg-7" id="home">
+        <ul class="nav justify-content-center py-3">
+        <li class="nav-item"><a class="text text-white nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="text text-white nav-link" href="product.html">Products</a></li>
+        <li class="nav-item"><a class="text text-white nav-link" href="servieces.html">Services</a></li>
+        <li class="nav-item"><a class="text text-white nav-link" href="contact.html">Contact</a></li>
+        <li class="nav-item"><a class="text text-white nav-link" href="signin.html">Sign IN</a></li>
+        <li class="nav-item"><a class="text text-white nav-link" href="signup.html" data-toggle="modal">Sign Up</a></li>
+      </ul>
+
+      </div>
+
+
+    </div>
+
+  </header>
+ 
+  <!--Navbar End-->
+
+  
+<!--Contact from start-->
+<section id="contact" >
+    <section class="container">
+      <section class="w-75 m-auto pb-5">
+        <div class="text-center pt-5">
+          <h5 class="mt-5 text-uppercase">Contact Form</h5>
+          <h2 class="text-uppercase font-weight-bold">Get In Touch</h2>
+        </div>
+  <section class="container">
+    <form class="row g-3">
+      <div class="col-md-6">
+        <label for="firstName" class="form-label">First Name</label>
+        <input type="text" class="form-control" id="firstName" placeholder="Enter YOur First Name" required>
+      </div>
+      <div class="col-md-6">
+        <label for="lastName" class="form-label">Last name</label>
+        <input type="text" class="form-control" id="lastName" placeholder="Enter Your Last Name" required>
+      </div>
+      
+      <div class="col-md-6">
+        <label for="inputEmail4" class="form-label">Email</label>
+        <input type="email" class="form-control" id="inputEmail4" placeholder="Enter Your Email" required>
+      </div>
+      <div class="col-md-6">
+        <label for="inputPassword4" class="form-label">Password</label>
+        <input type="password" class="form-control" id="inputPassword4" placeholder="Enter Your Password" required>
+      </div>
+      <div class="col-12">
+        <label for="inputAddress" class="form-label">Address</label>
+        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St" required>
+      </div>
+      <div class="col-12">
+        <label for="inputAddress2" class="form-label">Address 2</label>
+        <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor" required>
+      </div>
+      <div class="col-md-6">
+        <label for="inputCity" class="form-label">City</label>
+        <input type="text" class="form-control" id="inputCity">
+      </div>
+      <div class="col-md-4">
+        <label for="inputState" class="form-label">State</label>
+        <select id="inputState" class="form-select">
+          <option selected>Choose...</option>
+          <option>...</option>
+        </select>
+      </div>
+      <div class="col-md-2">
+        <label for="inputZip" class="form-label">Zip</label>
+        <input type="text" class="form-control" id="inputZip">
+      </div>
+      <div class="col-12">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="gridCheck">
+          <label class="form-check-label" for="gridCheck">
+            Check me out
+          </label>
+        </div>
+      </div>
+      <div class="col-12">
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+    </form>
+  </section>
+</section>
+</section>
+  <!--Contact form end-->
+  
+
+  <!--Footer Section Start-->
+  <section id="footer" class="mt-5 bg-info p-5 text-white text-center" style="width: 100%;">
+    <div class="container">
+     <div class="row mt-5">
+       <div class="col-md-4">
+         <h4>About Us</h4>
+         <h5 class="my-3">Web Designer</h5>
+         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum sunt at voluptate, iusto aspernatur animi id quae quia incidunt unde qui a error reprehenderit.</p>
+       </div>
+       <div class="col-md-4 ankor">
+         <h4>Quick Links</h4>
+         <p class="mt-4"><a href="#product" class="text-white">product</a></p>
+         <p><a href="#servieces" class="text-white">Services</a></p>
+         <p><a href="#testimonial" class="text-white">Testimonials</a></p>
+         <p><a href="#contact" class="text-white">Contact</a></p>
+ 
+       </div>
+       <div class="col-md-4 ankor">
+         <h4>Follow Us</h4>
+         <a href="#" class="mx-2 fa-2x text-white">Facebook</a>
+         <a href="#" class="mx-2 fa-2x text-white">Linkedin</a>
+         <a href="#" class="mx-2 fa-2x text-white">Twitter</a>
+         <a href="#" class="mx-2 fa-2x text-white">Instagram</a>
+       </div>
+   </div>
+    </div>
+    <p class="text-dark text-center mt-4">copy &copy; Right By <a href="#" class="text-dark copy">MD. EMON RABBANI</a></p>
+   </section>
+   <!--Footer Section End-->
+
+  
+
+  
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
